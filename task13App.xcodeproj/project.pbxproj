@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		3037EC142632D0FE009B4783 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3037EC132632D0FE009B4783 /* AppDelegate.swift */; };
 		3037EC162632D0FE009B4783 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3037EC152632D0FE009B4783 /* SceneDelegate.swift */; };
-		3037EC182632D0FE009B4783 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3037EC172632D0FE009B4783 /* ViewController.swift */; };
 		3037EC1B2632D0FE009B4783 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3037EC192632D0FE009B4783 /* Main.storyboard */; };
 		3037EC1D2632D106009B4783 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3037EC1C2632D106009B4783 /* Assets.xcassets */; };
 		3037EC202632D106009B4783 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3037EC1E2632D106009B4783 /* LaunchScreen.storyboard */; };
+		3037EC2B2632D191009B4783 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3037EC2A2632D191009B4783 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3037EC102632D0FE009B4783 /* task13App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = task13App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3037EC132632D0FE009B4783 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3037EC152632D0FE009B4783 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3037EC172632D0FE009B4783 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3037EC1A2632D0FE009B4783 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3037EC1C2632D106009B4783 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3037EC1F2632D106009B4783 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3037EC212632D106009B4783 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3037EC2A2632D191009B4783 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 			children = (
 				3037EC132632D0FE009B4783 /* AppDelegate.swift */,
 				3037EC152632D0FE009B4783 /* SceneDelegate.swift */,
-				3037EC172632D0FE009B4783 /* ViewController.swift */,
+				3037EC2A2632D191009B4783 /* TableViewController.swift */,
 				3037EC192632D0FE009B4783 /* Main.storyboard */,
 				3037EC1C2632D106009B4783 /* Assets.xcassets */,
 				3037EC1E2632D106009B4783 /* LaunchScreen.storyboard */,
@@ -137,8 +137,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3037EC182632D0FE009B4783 /* ViewController.swift in Sources */,
 				3037EC142632D0FE009B4783 /* AppDelegate.swift in Sources */,
+				3037EC2B2632D191009B4783 /* TableViewController.swift in Sources */,
 				3037EC162632D0FE009B4783 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,7 +295,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yasu.task13App;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -313,7 +313,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yasu.task13App;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
