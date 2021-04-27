@@ -9,7 +9,7 @@ import UIKit
 
 class TableViewController: UITableViewController {
 
-    private var checklistItem = ["りんご", "みかん", "バナナ", "パイナップル"]
+    private var checklistItem = ["りんご", "みかん", "バナナ", "パイナップル", "りんご", "みかん", "バナナ", "パイナップル", "りんご", "みかん", "バナナ", "パイナップル", "りんご", "みかん", "バナナ", "パイナップル", "りんご", "みかん", "バナナ", "パイナップル", "りんご", "みかん", "バナナ", "パイナップル"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,12 +22,14 @@ class TableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 
-        let cell = tableView.dequeueReusableCell(withIdentifier: "ItemCell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "ItemCell1", for: indexPath)
 
         let imageView = cell.viewWithTag(1) as! UIImageView
 
         if indexPath.row % 2 == 1 {
             imageView.image = UIImage(named: "check")
+        }else {
+            imageView.image = nil
         }
 
         let label = cell.viewWithTag(2) as! UILabel
