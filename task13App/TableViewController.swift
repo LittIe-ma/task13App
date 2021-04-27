@@ -9,7 +9,7 @@ import UIKit
 
 class TableViewController: UITableViewController {
 
-    private var checklistItem = ["りんご", "みかん", "バナナ", "パイナップル", "りんご", "みかん", "バナナ", "パイナップル", "りんご", "みかん", "バナナ", "パイナップル", "りんご", "みかん", "バナナ", "パイナップル", "りんご", "みかん", "バナナ", "パイナップル", "りんご", "みかん", "バナナ", "パイナップル"]
+    private var checklistItem = ["りんご", "みかん", "バナナ", "パイナップル"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
